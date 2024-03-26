@@ -1,5 +1,5 @@
 /* 
-États de notre Tamastudi possibles :
+États de mon Tama possibles :
 - 🥚 : partie non lancée
 - 🐣 : naissance pendant tant qu'il n'a pas fait son 1er caca
 Ensuite il devient un "grand" avec une humeur variable
@@ -26,10 +26,10 @@ const myTama = {
   desire: ""
 };
 
-/* PHASE 0 : activer le tamastudi 
+/* PHASE 0 : activer le tama
 1) Cliquer sur le bouton du milieu
 2) Ajouter un compteur qui attend d'avoir une valeur max de 5
-3) Alors on fait naitre notre tama
+3) Alors on fait naitre le tama
 */
 const start = () => {
   // 1) Cliquer sur le bouton du milieu
@@ -84,11 +84,11 @@ const birth = () => {
 };
 
 /* PHASE 2 : l'évolution de mon tama
-1) Attendre que notre tamaStudi ait une "première envie"
+1) Attendre que mon tama ait une "première envie"
 2) Il devient grand
 */
 const evolve = () => {
-  // 1) Attendre que notre tamaStudi ait une "première envie"
+  // 1) Attendre que mon tama ait une "première envie"
   const functionToExecute = () => {
     mood();
     cycleOfAdultLife()
